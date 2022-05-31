@@ -1,4 +1,4 @@
-# ResNet详解
+学习和复现ResNet
 
 原始论文:https://arxiv.org/pdf/1512.03385.pdf
 

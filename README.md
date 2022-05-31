@@ -25,7 +25,7 @@
 
 假设残差块输入x，输出y，有
 
-$y=F(x,\{W_i\})+x\\$
+$y=F(x,\{W_i\})+x$
 
 
 其中$F(x,\{W_i\})$表示残差块想要拟合的函数(residual mapping to be learned)，比如上文中Figure2里面残差块有两层，则$F=W_2\sigma(W_1x)$，其中$\sigma$表示ReLu，接下来为了确保维数相同，可以给让x通过1x1卷积层，这时公式如下
